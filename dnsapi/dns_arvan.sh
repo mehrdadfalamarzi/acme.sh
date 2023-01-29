@@ -18,7 +18,7 @@ dns_arvan_add() {
 
   if [ -z "$Arvan_Token" ]; then
     _err "You didn't specify \"Arvan_Token\" token yet."
-    _err "You can get yours from here https://npanel.arvancloud.ir/profile/api-keys"
+    _err "You can get yours from here https://panel.arvancloud.ir/profile/machine-user"
     return 1
   fi
   #save the api token to the account conf file.
